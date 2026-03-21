@@ -26,8 +26,8 @@ div[is="emby-itemscontainer"][data-refreshinterval="300000"][data-virtualscrolll
 }
 
 /* Makes all live TV single item display landscape and set it to backdrop width */
-div[is="emby-itemscontainer"].detailImageContainer-portrait:not(.detailImageContainer-small):has(.itemProgressBar) .cardPadder-portrait,
-div[is="emby-itemscontainer"].detailImageContainer-portrait:not(.detailImageContainer-small):has(.itemProgressBar) {
+div[is="emby-itemscontainer"].detailImageContainer-portrait:not(.detailImageContainer-small):not(:has(.cardOverlayContainer)) .cardPadder-portrait,
+div[is="emby-itemscontainer"].detailImageContainer-portrait:not(.detailImageContainer-small):not(:has(.cardOverlayContainer)) {
     width: clamp(20vw, 49.5em, 28vw) !important;
     padding-bottom: 0 !important;
     aspect-ratio: 16 / 9 !important;
