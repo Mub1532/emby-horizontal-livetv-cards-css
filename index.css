@@ -13,9 +13,6 @@
     aspect-ratio: 16 / 9 !important;
 }
 
-
-/* ── Live TV List Items */
-
 /* Makes all live TV list items landscape and set it to backdrop width */
 div[is="emby-itemscontainer"][data-monitor="Timers,SeriesTimers"][data-virtualscrolllayout="horizontal-grid"] .cardPadder-portrait,
 div[is="emby-itemscontainer"][data-refreshinterval="300000"][data-virtualscrolllayout="horizontal-grid"] .cardPadder-portrait {
