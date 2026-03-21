@@ -26,7 +26,7 @@ This was made since emby only allows you to set it horizontal for the main secti
 
 | Before | After |
 |--------|-------|
-| ![Before](https://placehold.co/600x400?text=Before) | ![After](https://placehold.co/600x400?text=After) |
+| ![Before](emby-screenshots/before-homepage.png) | ![After](emby-screenshots/after-homepage.png) |
 
 ---
 
@@ -34,7 +34,7 @@ This was made since emby only allows you to set it horizontal for the main secti
 
 | Before | After |
 |--------|-------|
-| ![Before](https://placehold.co/600x400?text=Before) | ![After](https://placehold.co/600x400?text=After) |
+| ![Before](emby-screenshots/before-livetv-home.png) | ![After](emby-screenshots/after-livetv-home.png) |
 
 ---
 
@@ -42,7 +42,8 @@ This was made since emby only allows you to set it horizontal for the main secti
 
 | Before | After |
 |--------|-------|
-| ![Before](https://placehold.co/600x400?text=Before) | ![After](https://placehold.co/600x400?text=After) |
+| ![Before 1](emby-screenshots/before-osd-info.png) | ![After 1](emby-screenshots/after-osd-info.png) |
+| ![Before 2](emby-screenshots/before-osd-now.png) | ![After 2](emby-screenshots/after-osd-now.png) |
 
 ---
 
@@ -50,7 +51,7 @@ This was made since emby only allows you to set it horizontal for the main secti
 
 | Before | After |
 |--------|-------|
-| ![Before](https://placehold.co/600x400?text=Before) | ![After](https://placehold.co/600x400?text=After) |
+| ![Before](emby-screenshots/before-tv-item.png) | ![After](emby-screenshots/after-tv-item.png) |
 
 ---
 
@@ -58,6 +59,6 @@ This was made since emby only allows you to set it horizontal for the main secti
 
 | Before | After |
 |--------|-------|
-| ![Before](https://placehold.co/600x400?text=Before) | ![After](https://placehold.co/600x400?text=After) |
+| ![Before](emby-screenshots/before-channel-schedule-item.png) | ![After](emby-screenshots/after-channel-schedule-item.png) |
 
 ---
