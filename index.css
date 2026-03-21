@@ -18,14 +18,12 @@
 /* ── Live TV List Items */
 
 /* Makes all live TV list items landscape */
-div[is="emby-itemscontainer"][data-monitor="Timers,SeriesTimers"] .cardPadder-portrait,
-div[is="emby-itemscontainer"][data-refreshinterval="300000"] .cardPadder-portrait {
+div[is="emby-itemscontainer"][data-refreshinterval="300000"][data-virtualscrolllayout="horizontal-grid"] .cardPadder-portrait {
     padding-bottom: 0 !important;
     aspect-ratio: 16 / 9 !important;
 }
 
 /* Make live TV list item cards backdrop width insetad of portrait */
-div[is="emby-itemscontainer"][data-monitor="Timers,SeriesTimers"] .virtualScrollItem,
-div[is="emby-itemscontainer"][data-refreshinterval="300000"] .virtualScrollItem {
+div[is="emby-itemscontainer"][data-refreshinterval="300000"][data-virtualscrolllayout="horizontal-grid"] .virtualScrollItem {
     width: calc(93vw / max((var(--backdrop-cards) + var(--user-cards-size-adjust)), 1)) !important;
 }
