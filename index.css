@@ -1,6 +1,6 @@
 /* TV Guide */
 
-/* TV guide info section thumbnail size */
+/* TV guide info section thumbnail size and make it landscape */
 .videoosd-poster {
     width: auto !important;
     max-width: 30% !important;
@@ -8,7 +8,6 @@
     aspect-ratio: 16 / 9 !important;
 }
 
-/* Makes the image div landscape in TV osd info section */
 .osdInfoImageCardBox.cardBox .itemAction.legacyLazyLoadImmediate.cardContent.cardImageContainer.cardContent-background.cardContent-bxsborder-fv.coveredImage.coveredImage-noScale.cardPadder-portrait {
     padding-bottom: 0 !important;
     aspect-ratio: 16 / 9 !important;
@@ -17,15 +16,24 @@
 
 /* ── Live TV List Items */
 
-/* Makes all live TV list items landscape */
+/* Makes all live TV list items landscape and set it to backdrop width */
 div[is="emby-itemscontainer"][data-monitor="Timers,SeriesTimers"][data-virtualscrolllayout="horizontal-grid"] .cardPadder-portrait,
 div[is="emby-itemscontainer"][data-refreshinterval="300000"][data-virtualscrolllayout="horizontal-grid"] .cardPadder-portrait {
     padding-bottom: 0 !important;
     aspect-ratio: 16 / 9 !important;
 }
 
-/* Make live TV list item cards backdrop width insetad of portrait */
 div[is="emby-itemscontainer"][data-monitor="Timers,SeriesTimers"][data-virtualscrolllayout="horizontal-grid"] .virtualScrollItem,
 div[is="emby-itemscontainer"][data-refreshinterval="300000"][data-virtualscrolllayout="horizontal-grid"] .virtualScrollItem {
     width: calc(93vw / max((var(--backdrop-cards) + var(--user-cards-size-adjust)), 1)) !important;
+}
+
+/* Makes all live TV single item display landscape and set it to backdrop width */
+div[is="emby-itemscontainer"].detailImageContainer-portrait:not(.detailImageContainer-small) {
+    width: clamp(20vw, 49.5em, 28vw) !important;
+}
+
+div[is="emby-itemscontainer"].detailImageContainer-portrait:not(.detailImageContainer-small) .cardPadder-portrait {
+    padding-bottom: 0 !important;
+    aspect-ratio: 16 / 9 !important;
 }
