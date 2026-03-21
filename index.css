@@ -37,10 +37,7 @@ div[is="emby-itemscontainer"].detailImageContainer-portrait:not(.detailImageCont
 
 
 /* Makes all live TV channel schedule items landscape */
-div[data-action="linkdialog"].listItemImageContainer.listItemImageContainer-large.itemAction.listItemImageContainer-portrait {
-    aspect-ratio: 16 / 9 !important;
-}
-
+div[data-action="linkdialog"].listItemImageContainer.listItemImageContainer-large.itemAction.listItemImageContainer-portrait,
 div[data-action="linkdialog"].listItemImageContainer.listItemImageContainer-large.itemAction.listItemImageContainer-portrait img {
     aspect-ratio: 16 / 9 !important;
     object-fit: contain !important;
