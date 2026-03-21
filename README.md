@@ -1,6 +1,6 @@
 # Emby Live TV Horizontal Cards
 
-> A custom CSS for Emby that changes the vertical cards to horizontal.
+> A custom CSS for Emby that changes the vertical TV cards to horizontal. Screenshots below.
 
 ---
 
