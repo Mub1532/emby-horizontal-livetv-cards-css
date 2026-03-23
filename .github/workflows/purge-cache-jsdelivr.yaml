@@ -1,0 +1,14 @@
+name: Purge jsDelivr Cache on new commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr Cache on new commit
+        run: |
+          curl "https://purge.jsdelivr.net/gh/Mub1532/emby-horizontal-livetv-cards-css@main/index.css"
