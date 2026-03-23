@@ -16,7 +16,7 @@ Add this line to the **Admin Dashboard → General → Custom CSS** part in Emby
 
 ## About
 
-This was made since emby only allows you to set it horizontal for the main section when you click into it, not other sections, like home page, or tv guide etc so the tv channel thumbnails look weird by default.
+This was made since emby only allows you to set it horizontal for the main section when you click into it (for example the /list/list.html?type=OnNow page), not other sections or pages, like home page, or tv guide etc so the tv channel thumbnails look weird by default since the thumbnails are landscape but emby css shows it portrait.
 
 ---
 
