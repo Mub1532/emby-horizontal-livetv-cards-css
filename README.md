@@ -20,6 +20,12 @@ This was made since emby only allows you to set it horizontal for the main secti
 
 ---
 
+## Emby Version
+
+Tested on Version 4.10.0.6 beta
+
+---
+
 ## Screenshots
 
 ### Home Page
